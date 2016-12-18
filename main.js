@@ -56,15 +56,33 @@ var noun = [
 	'zombie',
 ];
 
+var background = [
+	'0',
+	'1',
+	'2',
+	'3',
+	'4',
+	'5',
+	'6',
+	'7',
+	'8',
+	'9',
+];
+
 function get_name() {
 	return adjective.random() + ' ' + adjective_ed.random() + ' ' + noun.random();
 }
 
-document.addEventListener( 'DOMContentLoaded', function( event ) {
+function monster_maker() {
 	document.getElementsByTagName('h1')[0].innerHTML = get_name();
+	document.getElementsByTagName('body')[0].style.backgroundImage = "url('backgrounds/" + background.random() + ".jpg')";
+}
+
+document.addEventListener( 'DOMContentLoaded', function( event ) {
+	monster_maker();
 
 	document.getElementsByTagName('a')[0].onclick = function ( e ) {
 		e.preventDefault();
-		document.getElementsByTagName('h1')[0].innerHTML = get_name();
+		monster_maker();
 	};
 } );
