@@ -43,3 +43,7 @@ a {
 i {
 	color: white;
 }
+
+#preload {
+	display: none;
+}

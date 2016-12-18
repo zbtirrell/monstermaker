@@ -15,5 +15,18 @@
 
 	<a href="#"><i class="fa fa-refresh" aria-hidden="true"></i>
 	</a>
+
+	<div id="preload">
+		<img src="backgrounds/0.jpg" width="1" height="1" />
+		<img src="backgrounds/1.jpg" width="1" height="1" />
+		<img src="backgrounds/2.jpg" width="1" height="1" />
+		<img src="backgrounds/3.jpg" width="1" height="1" />
+		<img src="backgrounds/4.jpg" width="1" height="1" />
+		<img src="backgrounds/5.jpg" width="1" height="1" />
+		<img src="backgrounds/6.jpg" width="1" height="1" />
+		<img src="backgrounds/7.jpg" width="1" height="1" />
+		<img src="backgrounds/8.jpg" width="1" height="1" />
+		<img src="backgrounds/9.jpg" width="1" height="1" />
+	</div>
 </body>
 </html>
